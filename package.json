@@ -1,0 +1,30 @@
+{
+  "name": "webpackexercise",
+  "version": "1.0.0",
+  "description": "webpack exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaminaBoghossian/webpackexercise.git"
+  },
+  "keywords": [
+    "webpack",
+    "js",
+    "jquery",
+    "node"
+  ],
+  "author": "yaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YaminaBoghossian/webpackexercise/issues"
+  },
+  "homepage": "https://github.com/YaminaBoghossian/webpackexercise#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "save": "^2.3.1",
+    "webpack": "^3.5.5"
+  }
+}
