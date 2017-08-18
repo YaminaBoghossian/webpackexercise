@@ -1,16 +1,24 @@
-//En javascript modulaire, pour pouvoir utiliser une librairie ou un autre fichier, on doit importer
-//celui-ci, soit via import .. from
-import $ from 'jquery';
+//En javascript modulaire, pour pouvoir utiliser une library
+//ou un autre fichier, on doit importer celui ci, soit
+//via import .. from ''
+
 
 //soit via un require
-//const $ = require('jquery');
+const $ = require('jquery');
+
+//document.querySelector('#para');
+
+//document.querySelectorAll('p').forEach(function(para){para.addEventListener('click',function(){alert('bloup')})});
+// $('p').on('click', function() {
+//     alert('bloup');
+// });
+
 
 
 $(document).ready(function() {
     $('#para').css({
         color: 'red',
-        backgroundcolor: 'blue',
-        fontsize: 15
-    })
-
+        backgroundColor: 'blue',
+        fontSize: 35
+    });
 });
